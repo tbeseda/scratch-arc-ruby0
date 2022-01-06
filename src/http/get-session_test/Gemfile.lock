@@ -1,0 +1,60 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    architect-functions (0.5.3)
+      aws-sdk-apigateway (~> 1.33, >= 1.33.0)
+      aws-sdk-dynamodb (~> 1.33, >= 1.33.0)
+      aws-sdk-s3 (~> 1.45, >= 1.45.0)
+      aws-sdk-sns (~> 1.18, >= 1.18.0)
+      aws-sdk-sqs (~> 1.18, >= 1.18.0)
+      aws-sdk-ssm (~> 1.52, >= 1.52.0)
+      jwe (~> 0.4, >= 0.4.0)
+    aws-eventstream (1.2.0)
+    aws-partitions (1.545.0)
+    aws-sdk-apigateway (1.73.0)
+      aws-sdk-core (~> 3, >= 3.125.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-core (3.125.1)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.525.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-dynamodb (1.70.0)
+      aws-sdk-core (~> 3, >= 3.125.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-kms (1.53.0)
+      aws-sdk-core (~> 3, >= 3.125.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3 (1.111.0)
+      aws-sdk-core (~> 3, >= 3.125.0)
+      aws-sdk-kms (~> 1)
+      aws-sigv4 (~> 1.4)
+    aws-sdk-sns (1.50.0)
+      aws-sdk-core (~> 3, >= 3.125.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-sqs (1.49.0)
+      aws-sdk-core (~> 3, >= 3.125.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-ssm (1.127.0)
+      aws-sdk-core (~> 3, >= 3.125.0)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.4.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+    concurrent-ruby (1.1.9)
+    faker (2.19.0)
+      i18n (>= 1.6, < 2)
+    i18n (1.8.11)
+      concurrent-ruby (~> 1.0)
+    jmespath (1.4.0)
+    jwe (0.4.0)
+
+PLATFORMS
+  arm64-darwin-21
+  x86_64-linux
+
+DEPENDENCIES
+  architect-functions (~> 0.5.3)
+  faker (~> 2.19)
+
+BUNDLED WITH
+   2.2.33

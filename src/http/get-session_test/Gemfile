@@ -1,0 +1,5 @@
+source "https://rubygems.org"
+
+gem "faker", "~> 2.19"
+
+gem "architect-functions", "~> 0.5.3"
